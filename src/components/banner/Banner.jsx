@@ -23,7 +23,7 @@ const Banner = () => {
         </a>
 
         <a
-          href="https://github.com/Nur-Nayeem"
+          href="https://www.apple.com/app-store/"
           className="text-lg flex items-center gap-2.5 border-1 border-gray-300 py-3 px-5 rounded-sm"
         >
           <img src={appstore} alt="appstore" />
