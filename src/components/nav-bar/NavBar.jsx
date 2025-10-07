@@ -77,7 +77,7 @@ const NavBar = () => {
             className="btn text-lg text-white bg-gradient-to-r from-[#632ee3] to-[#9f62f2]"
           >
             <FaGithub />
-            Contribute
+            <span className="hidden sm:block">Contribute</span>
           </a>
         </div>
       </div>
