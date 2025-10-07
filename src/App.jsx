@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      <main className="max-w-[1440px] mx-auto">
+      <main>
         <Outlet />
       </main>
     </div>
