@@ -3,6 +3,7 @@ import App from "../App";
 import Home from "../pages/Home";
 import Apps from "../pages/Apps";
 import NotFound from "../pages/NotFound";
+import AppDetails from "../components/app-details/AppDetails";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
       {
         path: "apps",
         Component: Apps,
+      },
+      {
+        path: "apps/:appId",
+        Component: AppDetails,
       },
       {
         path: "installed",

@@ -1,11 +1,12 @@
 import React from "react";
 import { HiOutlineDownload } from "react-icons/hi";
 import { IoStar } from "react-icons/io5";
+import { Link } from "react-router";
 const AppCard = ({ app }) => {
-  const { image, title, downloads, ratingAvg } = app;
+  const { id, image, title, downloads, ratingAvg } = app;
 
   return (
-    <div className="p-4 shadow-sm bg-white rounded-lg">
+    <Link to={`/apps/${id}`} className="p-4 shadow-sm bg-white rounded-lg">
       <figure className="w-2xs- h-2xs">
         <img className="w-full h-full rounded-lg" src={image} alt="app" />
       </figure>
@@ -20,7 +21,7 @@ const AppCard = ({ app }) => {
           <span className="hidden sm:block">{ratingAvg}</span>
         </button>
       </div>
-    </div>
+    </Link>
   );
 };
 

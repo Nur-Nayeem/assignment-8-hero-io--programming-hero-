@@ -23,3 +23,11 @@ body {
   color: transparent;
   font-weight: 600;
 }
+
+.dark {
+  color: #001931;
+}
+
+.gray {
+  color: #627382;
+}
