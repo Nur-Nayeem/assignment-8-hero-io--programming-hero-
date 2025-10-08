@@ -10,7 +10,7 @@ const Home = () => {
 
   if (loading) {
     return (
-      <div className="relative h-96 flex items-center justify-center">
+      <div className="relative h-[calc(100vh-452px)] flex items-center justify-center">
         <Loader />
       </div>
     );

@@ -25,7 +25,7 @@ const Apps = () => {
     if (search.length) {
       const timer = setTimeout(() => {
         setLoadingApp(false);
-      }, 200);
+      }, 400);
       return () => clearTimeout(timer);
     }
     if (apps.length) {
@@ -40,7 +40,7 @@ const Apps = () => {
 
   if (loading) {
     return (
-      <div className="relative h-96 flex items-center justify-center">
+      <div className="relative h-[calc(100vh-452px)] flex items-center justify-center">
         <Loader />
       </div>
     );

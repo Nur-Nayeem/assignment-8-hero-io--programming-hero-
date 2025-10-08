@@ -7,6 +7,7 @@ import useApps from "../hooks/useApps";
 import AppNotFound from "../components/app-not-found/AppNotFound";
 import BarChartRating from "../components/app-details/bar-chart/BarchartRating";
 import { getAppsFromLocalStorage, storeInstalledApp } from "../utility/localDB";
+import Loader from "../components/loader/Loader";
 const AppDetails = () => {
   const storedApps = getAppsFromLocalStorage();
 
@@ -18,7 +19,13 @@ const AppDetails = () => {
   const isInstalled = storedApps.some((a) => a.id === Number(appId));
   const [clickedBtn, setClickedBtn] = useState(isInstalled);
 
-  if (loading) return <h1>Loading.......</h1>;
+  if (loading) {
+    return (
+      <div className="relative h-[calc(100vh-452px)] flex items-center justify-center">
+        <Loader />
+      </div>
+    );
+  }
 
   if (!app) {
     return <AppNotFound />;
