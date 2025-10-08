@@ -2,8 +2,6 @@ import React from "react";
 import { HiOutlineDownload } from "react-icons/hi";
 import { IoStar } from "react-icons/io5";
 const AppCard = ({ app }) => {
-  console.log(app);
-
   const { image, title, downloads, ratingAvg } = app;
 
   return (

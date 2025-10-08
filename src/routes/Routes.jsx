@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import App from "../App";
 import Home from "../pages/Home";
+import Apps from "../pages/Apps";
 
 export const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "apps",
-        element: <h1>App</h1>,
+        Component: Apps,
       },
       {
         path: "installed",

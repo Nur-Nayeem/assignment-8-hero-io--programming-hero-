@@ -19,7 +19,7 @@ const Banner = () => {
           className="text-lg flex items-center gap-2.5 border-1 border-gray-300 py-3 px-5 rounded-sm"
         >
           <img src={playstore} alt="playstore" />
-          <span className="hidden sm:block">Contribute</span>
+          <span className="hidden sm:block">Google Play</span>
         </a>
 
         <a
@@ -27,7 +27,7 @@ const Banner = () => {
           className="text-lg flex items-center gap-2.5 border-1 border-gray-300 py-3 px-5 rounded-sm"
         >
           <img src={appstore} alt="appstore" />
-          <span className="hidden sm:block">Contribute</span>
+          <span className="hidden sm:block">App Store</span>
         </a>
       </div>
       <figure className="mt-10">
