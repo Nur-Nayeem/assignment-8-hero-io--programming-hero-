@@ -5,7 +5,10 @@ import {
 } from "../utility/localDB";
 import InstalledAppCard from "../components/installed-app-card/InstalledAppCard";
 import SortFilter from "../components/sortfilter/SortFilter";
+import useApps from "../hooks/useApps";
+import Loader from "../components/loader/Loader";
 const InstalledApp = () => {
+  const { loading } = useApps();
   const installedApps = getAppsFromLocalStorage();
 
   const [apps, setApps] = useState(installedApps);
@@ -27,6 +30,14 @@ const InstalledApp = () => {
       return apps;
     }
   })();
+
+  if (loading) {
+    return (
+      <div className="relative h-96 flex items-center justify-center">
+        <Loader />
+      </div>
+    );
+  }
 
   if (sortedApps.length === 0) {
     return (
