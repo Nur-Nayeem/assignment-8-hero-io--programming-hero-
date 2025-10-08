@@ -6,14 +6,17 @@ import { useParams } from "react-router";
 import useApps from "../hooks/useApps";
 import AppNotFound from "../components/app-not-found/AppNotFound";
 import BarChartRating from "../components/app-details/bar-chart/BarchartRating";
-import { toast } from "react-toastify";
+import { getAppsFromLocalStorage, storeInstalledApp } from "../utility/localDB";
 const AppDetails = () => {
-  const [clickedBtn, setClickedBtn] = useState(false);
+  const storedApps = getAppsFromLocalStorage();
+
   const { appId } = useParams();
 
   const { apps, loading } = useApps();
 
   const app = apps.find((a) => a.id === Number(appId));
+  const isInstalled = storedApps.some((a) => a.id === Number(appId));
+  const [clickedBtn, setClickedBtn] = useState(isInstalled);
 
   if (loading) return <h1>Loading.......</h1>;
 
@@ -32,9 +35,10 @@ const AppDetails = () => {
     ratings,
   } = app;
 
-  const handleInstallApp = () => {
+  const handleInstallApp = (app) => {
     setClickedBtn(true);
-    toast.success("Installed App Succenfully");
+    storeInstalledApp(app);
+    console.log("click");
   };
 
   return (
@@ -69,8 +73,9 @@ const AppDetails = () => {
             </div>
           </div>
           <button
-            onClick={() => handleInstallApp()}
-            className="bg-[#00D390] text-xl font-semibold py-3.5 px-5 rounded-lg text-white"
+            disabled={clickedBtn}
+            onClick={() => handleInstallApp(app)}
+            className="cursor-pointer bg-[#00D390] text-xl font-semibold py-3.5 px-5 rounded-lg text-white"
           >
             {clickedBtn ? "Installed" : `Install Now (${size} MB)`}
           </button>

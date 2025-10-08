@@ -3,7 +3,8 @@ import App from "../App";
 import Home from "../pages/Home";
 import Apps from "../pages/Apps";
 import NotFound from "../pages/NotFound";
-import AppDetails from "../components/app-details/AppDetails";
+import AppDetails from "../pages/AppDetails";
+import InstalledApp from "../pages/InstalledApp";
 
 export const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "installed",
-        element: <h1>Installed</h1>,
+        Component: InstalledApp,
       },
       {
         path: "*",
