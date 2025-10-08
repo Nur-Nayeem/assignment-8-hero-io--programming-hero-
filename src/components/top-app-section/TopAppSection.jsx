@@ -16,13 +16,18 @@ const TopAppSection = () => {
       <p className="text-[#627382] text-xl text-center mt-4">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-10">
+      <div>
         {loading ? (
-          <h2>Loading...</h2>
+          <h2 className="text-center">Loading...</h2>
         ) : (
-          featuredApps.map((app) => <AppCard key={app.id} app={app} />)
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-10">
+            {featuredApps.map((app) => (
+              <AppCard key={app.id} app={app} />
+            ))}
+          </div>
         )}
       </div>
+
       <Link to="/apps" className="w-max mx-auto ">
         <button className="cursor-pointer font-semibold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-3.5 px-10 text-white rounded-md">
           Show All
