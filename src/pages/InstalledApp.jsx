@@ -4,10 +4,13 @@ import {
   removeAppFromStorage,
 } from "../utility/localDB";
 import InstalledAppCard from "../components/installed-app-card/InstalledAppCard";
+import SortFilter from "../components/sortfilter/SortFilter";
 const InstalledApp = () => {
   const installedApps = getAppsFromLocalStorage();
 
   const [apps, setApps] = useState(installedApps);
+
+  const [sortOrder, setSortOrder] = useState("none");
 
   const hanldeRemoveApp = (id) => {
     removeAppFromStorage(id);
@@ -15,7 +18,17 @@ const InstalledApp = () => {
     setApps(filterApps);
   };
 
-  if (apps.length === 0) {
+  const sortedApps = (() => {
+    if (sortOrder === "asc") {
+      return [...apps].sort((a, b) => a.downloads - b.downloads);
+    } else if (sortOrder === "desc") {
+      return [...apps].sort((a, b) => b.downloads - a.downloads);
+    } else {
+      return apps;
+    }
+  })();
+
+  if (sortedApps.length === 0) {
     return (
       <div className="max-w-[1440px] mx-auto my-20 px-2.5">
         <h1 className="text-center bg-gray-200 py-4 text-4xl font-bold gray rounded-sm">
@@ -34,15 +47,15 @@ const InstalledApp = () => {
       </p>
       <div className="flex justify-between items-center mt-10 mb-4">
         <span className="text-2xl font-semibold text-[#001931]">
-          {apps.length} Apps Found
+          {sortedApps.length} Apps Found
         </span>
-        <button>Sort By Size</button>
+        <SortFilter sortOrder={sortOrder} setSortOrder={setSortOrder} />
       </div>
 
       {/* installed apps */}
 
       <div className="space-y-4">
-        {apps.map((app) => (
+        {sortedApps.map((app) => (
           <InstalledAppCard
             key={app.id}
             app={app}
