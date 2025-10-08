@@ -8,11 +8,12 @@ const AppNotFound = () => {
       <figure>
         <img src={appNotFound} alt="Not Found" />
       </figure>
-      <h2 className="text-5xl font-bold text-[#001931]">
-        Oops, page not found!
+      <h2 className="text-5xl font-bold text-[#001931] mt-4">
+        OPPS!! APP NOT FOUND
       </h2>
       <p className="my-4 text-xl text-[#627382]">
-        The page you are looking for is not available.
+        The App you are requesting is not found on our system. please try
+        another apps
       </p>
       <Link to={-1} className="w-max mx-auto ">
         <button className="cursor-pointer font-semibold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-3.5 px-10 text-white rounded-md">

@@ -8,7 +8,7 @@ const NotFound = () => {
       <figure>
         <img src={notfound} alt="Not Found" />
       </figure>
-      <h2 className="text-5xl font-bold text-[#001931]">
+      <h2 className="text-5xl font-bold text-[#001931] mt-4">
         Oops, page not found!
       </h2>
       <p className="my-4 text-xl text-[#627382]">
