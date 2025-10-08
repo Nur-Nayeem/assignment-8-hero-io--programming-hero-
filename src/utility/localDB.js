@@ -18,3 +18,10 @@ export const storeInstalledApp = (app) => {
   localStorage.setItem("installed", JSON.stringify(updateApps));
   toast.success("Installed App Succenfully");
 };
+
+export const removeAppFromStorage = (id) => {
+  const apps = getAppsFromLocalStorage();
+  const filteredApps = apps.filter((app) => app.id !== id);
+  localStorage.setItem("installed", JSON.stringify(filteredApps));
+  toast.success("Unstalled App Succenfully");
+};

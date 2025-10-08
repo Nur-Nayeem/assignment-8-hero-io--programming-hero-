@@ -1,23 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
+import {
+  getAppsFromLocalStorage,
+  removeAppFromStorage,
+} from "../utility/localDB";
+import InstalledAppCard from "../components/installed-app-card/InstalledAppCard";
 const InstalledApp = () => {
+  const installedApps = getAppsFromLocalStorage();
+
+  const [apps, setApps] = useState(installedApps);
+
+  const hanldeRemoveApp = (id) => {
+    removeAppFromStorage(id);
+    const filterApps = apps.filter((app) => app.id !== id);
+    setApps(filterApps);
+  };
+
+  if (apps.length === 0) {
+    return (
+      <div className="max-w-[1440px] mx-auto my-20 px-2.5">
+        <h1 className="text-center bg-gray-200 py-4 text-4xl font-bold gray rounded-sm">
+          No App installed yet
+        </h1>
+      </div>
+    );
+  }
   return (
-    <div className="max-w-[1440px] mx-auto my-20">
+    <div className="max-w-[1440px] mx-auto my-20 px-2.5">
       <h2 className="dark text-5xl font-bold text-center">
         Your Installed Apps
       </h2>
       <p className="gray text-xl text-center mt-4">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <div className="flex justify-between items-center mt-10">
+      <div className="flex justify-between items-center mt-10 mb-4">
         <span className="text-2xl font-semibold text-[#001931]">
-          1 Apps Found
+          {apps.length} Apps Found
         </span>
         <button>Sort By Size</button>
       </div>
 
       {/* installed apps */}
 
-      <div>{/* installed app cards */}</div>
+      <div className="space-y-4">
+        {apps.map((app) => (
+          <InstalledAppCard
+            key={app.id}
+            app={app}
+            hanldeRemoveApp={hanldeRemoveApp}
+          />
+        ))}
+      </div>
     </div>
   );
 };
