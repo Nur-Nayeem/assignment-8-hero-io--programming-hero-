@@ -25,7 +25,7 @@
 
 ```bash
 git clone https://github.com/Nur-Nayeem/apex.io-hero.io-assignment-8-programming-hero
-cd assignment-8-hero-io--programming-hero-
+cd apex.io-hero.io-assignment-8-programming-hero
 npm install
 npm run dev
 ```
