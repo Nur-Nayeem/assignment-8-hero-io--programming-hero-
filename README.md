@@ -12,7 +12,7 @@
 
 - **React.js** – Frontend UI library
 - **JavaScript (ES6+)** – Programming language
-- **HTML5 , CSS3 and Tailwind** – Markup and styling
+- **HTML5 , CSS3, Tailwind and DaisyUI** – Markup and styling
 - **React Router** – For routing
 - **Axios** – For loading JSON API Data
 
