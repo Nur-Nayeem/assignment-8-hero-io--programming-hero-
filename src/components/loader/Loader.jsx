@@ -1,18 +1,22 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import { OrbitProgress } from "react-loading-indicators";
 
 const Loader = () => {
   return (
     <div className="flex items-center justify-center gap-3 space-y-4">
-      <h1 className="text-4xl font-bold flex items-center animate-pulse text-gray-700">
-        <span>L</span>
+      <div className="flex items-center animate-pulse gray">
+        <span className="text-7xl">L</span>
         <span>
-          <figure className="w-14 h-14 animate-spin">
-            <img className="w-full h-full" src={logo} alt="logo" />
-          </figure>
+          <OrbitProgress
+            variant="track-disc"
+            color="#627382"
+            size="small"
+            text=""
+            textColor=""
+          />
         </span>
-        <span>ADING...</span>
-      </h1>
+        <span className="text-7xl">ADING...</span>
+      </div>
     </div>
   );
 };
