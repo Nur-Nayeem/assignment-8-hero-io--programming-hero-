@@ -17,11 +17,11 @@ const AppCard = ({ app }) => {
       <div className="flex justify-between">
         <button className="btn text-lg text-[#00D390] bg-[#F1F5E8]">
           <HiOutlineDownload />
-          <span className="hidden sm:block">{downloads / 100000}M</span>
+          <span>{downloads / 100000}M</span>
         </button>
         <button className="btn text-lg text-[#FF8811] bg-[#FFF0E1]">
           <IoStar />
-          <span className="hidden sm:block">{ratingAvg}</span>
+          <span>{ratingAvg}</span>
         </button>
       </div>
     </Link>
