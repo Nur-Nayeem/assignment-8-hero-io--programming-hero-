@@ -24,7 +24,7 @@ const Footer = () => {
         <figure className="w-7 h-7  md:w-8 md:h-8">
           <img className="w-full h-full" src={logo} alt="logo" />
         </figure>
-        <h1 className="text-lg gradient-text font-bold">LOGO.IO</h1>
+        <h1 className="text-lg gradient-text font-bold">APEX.IO</h1>
       </Link>
       <p className="my-5 max-w-3xl">
         Enjoy the full power of our platform in your pocket. Our mobile app
