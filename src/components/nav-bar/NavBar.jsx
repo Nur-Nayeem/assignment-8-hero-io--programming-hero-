@@ -74,6 +74,7 @@ const NavBar = () => {
         <div className="navbar-end">
           <a
             href="https://github.com/Nur-Nayeem"
+            target="_blank"
             className="btn text-lg text-white bg-gradient-to-r from-[#632ee3] to-[#9f62f2]"
           >
             <FaGithub />

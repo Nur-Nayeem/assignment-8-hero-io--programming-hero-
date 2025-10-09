@@ -45,8 +45,13 @@ const AppDetails = () => {
   const handleInstallApp = (app) => {
     setClickedBtn(true);
     storeInstalledApp(app);
-    console.log("click");
   };
+
+  let split1 =
+    description.lastIndexOf(".", Math.floor(description.length / 2)) + 1;
+
+  let p1 = description.substring(0, split1).trim();
+  let p2 = description.substring(split1).trim();
 
   return (
     <div className="max-w-[1440px] mx-auto my-20 px-2.5">
@@ -97,7 +102,8 @@ const AppDetails = () => {
       <hr className="w-full gray opacity-50 my-10" />
 
       <h3 className="dark text-2xl font-semibold mb-6">Description</h3>
-      <p>{description}</p>
+      <p className="gray text-xl mb-5">{p1}</p>
+      <p className="gray text-xl">{p2}</p>
     </div>
   );
 };

@@ -9,10 +9,9 @@ import {
 } from "recharts";
 
 const BarChartRating = ({ ratings }) => {
-  const sortedData = [...ratings].sort((a, b) => b.count - a.count);
   return (
     <ResponsiveContainer width="100%" height="100%">
-      <BarChart width={500} height={400} layout="vertical" data={sortedData}>
+      <BarChart width={500} height={400} layout="vertical" data={ratings}>
         <XAxis type="number" axisLine={false} tickLine={false} />
         <YAxis
           type="category"
@@ -21,7 +20,7 @@ const BarChartRating = ({ ratings }) => {
           tickLine={false}
         />
         <Tooltip />
-        <Bar dataKey="count" fill="#FF8811" />
+        <Bar dataKey="count" fill="#00D390" />
       </BarChart>
     </ResponsiveContainer>
   );

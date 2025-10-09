@@ -16,6 +16,7 @@ const Banner = () => {
       <div className="flex items-center justify-center space-x-10">
         <a
           href="https://play.google.com/store/games?hl=en&pli=1"
+          target="_blank"
           className="text-lg flex items-center gap-2.5 border-1 border-gray-300 py-3 px-5 rounded-sm"
         >
           <img src={playstore} alt="playstore" />
@@ -24,6 +25,7 @@ const Banner = () => {
 
         <a
           href="https://www.apple.com/app-store/"
+          target="_blank"
           className="text-lg flex items-center gap-2.5 border-1 border-gray-300 py-3 px-5 rounded-sm"
         >
           <img src={appstore} alt="appstore" />

@@ -4,17 +4,32 @@
     "title": "FitTrack:Personal Fitness Coach",
     "companyName": "HealthCore Inc.",
     "id": 1,
-    "description": "FitTrack is your all-in-one fitness companion that brings personalized workout routines, meal tracking, and real-time coaching straight to your pocket. Whether you're aiming to lose weight, build muscle, or stay active, FitTrack tailors each plan to your lifestyle. With daily challenges, progress tracking, and a vibrant community, motivation and results go hand-in-hand.",
+    "description": "FitTrack is the world's most comprehensive personal health coach, transforming your smartphone into a dedicated wellness partner. Beyond simple step counting, it provides dynamic, hyper-personalized workout plans built by neuroscientists to match your unique body composition, current fitness level, and long-term goals. The app offers a vast library spanning from muscle-building strength routines and fat-burning HIIT to restorative Pilates and mindfulness yoga flows. Core to FitTrack is its Virtual Nutritionist feature, which generates personalized meal recommendations and macro targets based on real-time activity and synced data. During workouts, the Real-Time Coaching engine uses motion analysis (via your device's camera) to provide immediate form feedback, preventing injury and maximizing effectiveness. Stay motivated with the Health Score—a single, easy-to-understand metric that contextualizes your overall well-being. The platform supports seamless data integration with smart scales and wearables, offering weekly progress reports and Predictive Health Analytics to help you build lasting, positive behavioral changes and stay consistently on track.",
     "size": 75,
     "reviews": 8421,
     "ratingAvg": 4.2,
     "downloads": 950000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 2700 },
-      { "name": "5 star", "count": 3721 }
+      {
+        "name": "5 star",
+        "count": 3721
+      },
+      {
+        "name": "4 star",
+        "count": 2700
+      },
+      {
+        "name": "3 star",
+        "count": 1200
+      },
+      {
+        "name": "2 star",
+        "count": 500
+      },
+      {
+        "name": "1 star",
+        "count": 300
+      }
     ]
   },
   {
@@ -22,17 +37,32 @@
     "title": "NoteNest:Smart Note Organizer",
     "companyName": "EverSmart",
     "id": 2,
-    "description": "NoteNest revolutionizes note-taking with a clean interface and powerful tools to capture, organize, and sync ideas across all your devices. From simple grocery lists to research-heavy documents, NoteNest adapts to your needs. Features include voice-to-text input, rich formatting, cross-platform support, and intelligent tagging that keeps your notes at your fingertips anytime, anywhere.",
+    "description": "NoteNest is the all-in-one digital notebook crafted for peak productivity, simplicity, and security. Designed for students creating academic summaries, professionals managing project workflows, and creatives capturing sudden inspiration, NoteNest ensures effortless information capture. The Effortless Note Taking interface is clean and intuitive, supporting rich formatting, media attachments, and even quick-capture via voice or sketch. Organization is smart and robust, featuring intelligent tags, nested folders, and cross-platform syncing (iCloud/Google Drive optional) to ensure your data is accessible on any device. The app's Lightning-Fast Search functionality indexes every word, making it possible to retrieve notes from months ago in seconds. Critically, NoteNest operates on a Privacy-First, Local-First approach, with optional cloud backup and a secure, ad-free environment, meaning your thoughts and data remain exclusively yours. Enjoy the visually sleek Dark Mode for late-night sessions and rely on the automatic save feature to never lose a thought again.",
     "size": 18,
     "reviews": 30120,
     "ratingAvg": 4.7,
     "downloads": 4200000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 2500 },
-      { "name": "4 star", "count": 6000 },
-      { "name": "5 star", "count": 20520 }
+      {
+        "name": "5 star",
+        "count": 20520
+      },
+      {
+        "name": "4 star",
+        "count": 6000
+      },
+      {
+        "name": "3 star",
+        "count": 2500
+      },
+      {
+        "name": "2 star",
+        "count": 600
+      },
+      {
+        "name": "1 star",
+        "count": 500
+      }
     ]
   },
   {
@@ -40,17 +70,32 @@
     "title": "LangBridge:Learn Languages Fast",
     "companyName": "LinguaWorld",
     "id": 3,
-    "description": "LangBridge makes language learning fun and effective by combining bite-sized lessons, speech recognition, and real-world scenarios. Master over 30 languages with daily challenges, vocabulary builders, and immersive dialogues that help you speak confidently. Whether you're preparing for travel or just curious, LangBridge adapts to your level and goals.",
+    "description": "LangBridge is a revolutionary language learning platform designed to take you from novice to fluency faster through an engaging, immersive, and scientifically-backed curriculum. Supporting over 50 global languages, the app utilizes Spaced Learning principles and Adaptive AI to create a personalized word-retention schedule, ensuring maximum recall and minimal study time. The core method centers on gamified lessons, including interactive Card Swipe features, mascot-led quizzes, and challenging Hangman/Word Hunter games that make vocabulary acquisition effortless. Lessons are structured by skill level, focusing on real-life application with topics like common expressions, travel, and dining. Critically to fluency, LangBridge integrates advanced translation tools for text, voice, and even objects (via camera), as well as Conversation Translation for real-time, two-person dialogue practice. Daily word notifications and a robust achievement system with Strike Badges (for consistency) ensure continuous engagement and accelerated progress toward authentic conversational mastery.",
     "size": 120,
     "reviews": 9123,
-    "ratingAvg": 4.0,
+    "ratingAvg": 4.2,
     "downloads": 780000,
     "ratings": [
-      { "name": "1 star", "count": 1000 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2200 },
-      { "name": "4 star", "count": 2500 },
-      { "name": "5 star", "count": 2523 }
+      {
+        "name": "5 star",
+        "count": 2523
+      },
+      {
+        "name": "4 star",
+        "count": 2500
+      },
+      {
+        "name": "3 star",
+        "count": 2200
+      },
+      {
+        "name": "2 star",
+        "count": 900
+      },
+      {
+        "name": "1 star",
+        "count": 1000
+      }
     ]
   },
   {
@@ -58,17 +103,32 @@
     "title": "FoodieGo:Order Food Anywhere",
     "companyName": "GrubBridge",
     "id": 4,
-    "description": "FoodieGo lets you browse menus, place orders, and track deliveries from your favorite local restaurants. With real-time updates, exclusive deals, and reliable service, it brings your cravings to your doorstep faster than ever. Choose contactless delivery, schedule ahead, and even reorder your favorites with one tap.",
+    "description": "FoodieGo is the essential mobile platform that brings an expansive culinary universe directly to your doorstep. As an aggregator, it connects you instantly with thousands of local restaurants, ghost kitchens, and specialty eateries, offering an unprecedented variety of cuisines. The app’s intuitive interface facilitates seamless Menu Browsing with high-resolution images, detailed item customization, and allergy filters. Once an order is placed, FoodieGo utilizes a cutting-edge dispatch system, providing GPS-Enabled Real-Time Order Tracking so you can watch your delivery driver's progress on a map from the restaurant to your door. Key features include multiple Secure Payment Gateways, the ability to schedule orders days in advance, and a comprehensive Loyalty and Rewards Program that offers exclusive promo deals and discounts. Whether catering a group event or satisfying a midnight craving, FoodieGo ensures speed, convenience, and a transparent delivery experience, making it the ultimate food companion for every occasion.",
     "size": 88,
     "reviews": 45234,
     "ratingAvg": 3.9,
     "downloads": 5400000,
     "ratings": [
-      { "name": "1 star", "count": 4200 },
-      { "name": "2 star", "count": 3900 },
-      { "name": "3 star", "count": 6700 },
-      { "name": "4 star", "count": 12900 },
-      { "name": "5 star", "count": 17534 }
+      {
+        "name": "5 star",
+        "count": 17534
+      },
+      {
+        "name": "4 star",
+        "count": 12900
+      },
+      {
+        "name": "3 star",
+        "count": 6700
+      },
+      {
+        "name": "2 star",
+        "count": 3900
+      },
+      {
+        "name": "1 star",
+        "count": 4200
+      }
     ]
   },
   {
@@ -76,17 +136,32 @@
     "title": "MindEase:Meditation & Sleep Aid",
     "companyName": "CalmSpace Co.",
     "id": 5,
-    "description": "MindEase offers guided meditations, relaxing music, and breathing exercises to reduce stress and improve sleep. Designed by wellness experts, the app includes daily mindfulness routines, bedtime stories, and focus-enhancing sounds to help you find calm anytime. Ideal for beginners and experienced meditators alike.",
+    "description": "MindEase offers a personalized sanctuary for mental wellness, designed by qualified mental health professionals and leveraging evidence-based techniques like Cognitive Behavioral Therapy (CBT). The app provides immediate relief with an extensive library of Guided Meditations tailored for anxiety, panic, focus, and emotional resilience. Its holistic approach includes Long-Term Anxiety Management through structured daily activities, Guided Journaling prompts for self-reflection, and powerful Breathing Exercises to regulate the nervous system. The dedicated Sleep Aid library features soothing soundscapes, narrative sleep stories, and ambient noise designed to promote deep, restorative rest. With customizable daily routines, offline listening support, and an intuitive design, MindEase integrates seamlessly into your life, whether you need to manage a stressful moment or build consistent, long-term mindfulness habits.",
     "size": 54,
     "reviews": 22312,
     "ratingAvg": 4.6,
     "downloads": 3100000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1900 },
-      { "name": "4 star", "count": 5100 },
-      { "name": "5 star", "count": 14312 }
+      {
+        "name": "5 star",
+        "count": 14312
+      },
+      {
+        "name": "4 star",
+        "count": 5100
+      },
+      {
+        "name": "3 star",
+        "count": 1900
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "1 star",
+        "count": 300
+      }
     ]
   },
   {
@@ -94,17 +169,32 @@
     "title": "BudgetBee:Personal Finance Tracker",
     "companyName": "FinTrack Systems",
     "id": 6,
-    "description": "BudgetBee simplifies money management with easy-to-use budgeting tools, bill reminders, and expense tracking. Automatically categorize your transactions, monitor income vs. spending, and set savings goals. With data insights and weekly reports, BudgetBee keeps your financial life under control and stress-free.",
+    "description": "BudgetBee is a smart, scientific, and intuitive personal finance assistant that puts you in complete control of your money. It offers comprehensive, automated expense tracking by allowing you to connect your bank accounts (optional) and automatically categorizing daily transactions for an effortless overview. The app features powerful visualization tools, including customizable, interactive charts and detailed reports that break down income and expenses by category and date range, helping you identify spending patterns. To maintain financial discipline, you can set Expense Limits with automated reminders, track multiple account balances (cash, card, bank), and manage debt/loan repayments. BudgetBee is built to simplify the path to financial health, whether you are meticulously budgeting for a major purchase or simply aiming for a more balanced, conscious life.",
     "size": 41,
     "reviews": 12345,
     "ratingAvg": 4.3,
     "downloads": 1100000,
     "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 3600 },
-      { "name": "5 star", "count": 6845 }
+      {
+        "name": "5 star",
+        "count": 6845
+      },
+      {
+        "name": "4 star",
+        "count": 3600
+      },
+      {
+        "name": "3 star",
+        "count": 1600
+      },
+      {
+        "name": "2 star",
+        "count": 700
+      },
+      {
+        "name": "1 star",
+        "count": 600
+      }
     ]
   },
   {
@@ -112,17 +202,32 @@
     "title": "SnapEditor:AI Photo Enhancer",
     "companyName": "PixelForge",
     "id": 7,
-    "description": "SnapEditor is your creative toolkit for stunning photo edits. With AI-powered filters, background removal, facial retouching, and one-tap enhancements, you can transform ordinary pictures into eye-catching visuals. Designed for both casual users and professionals, SnapEditor makes every shot picture-perfect.",
+    "description": "SnapEditor is the state-of-the-art mobile photo editor that harnesses the power of AI to deliver professional-grade results with unprecedented ease. Its flagship One-Touch Object Removal and Super Erase features allow you to seamlessly eliminate photobombers, unwanted elements, and background distractions. Beyond simple cropping, the app includes powerful AI Enhancement Tools for instant quality boosts, lighting adjustments, and color correction. Creative features include effortless Sky Replacement, precise Background Removal to isolate subjects, and a vast library of artistic filters and Anime effects. Ideal for both quick social media posts and detailed portfolio work, SnapEditor supports Batch Editing and RAW file formats, ensuring high-quality output every time. The intuitive, user-friendly interface ensures that both professional photographers and casual users can effortlessly transform their pictures into stunning visual masterpieces.",
     "size": 95,
     "reviews": 27400,
     "ratingAvg": 4.4,
     "downloads": 2700000,
     "ratings": [
-      { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 3400 },
-      { "name": "4 star", "count": 7800 },
-      { "name": "5 star", "count": 14200 }
+      {
+        "name": "5 star",
+        "count": 14200
+      },
+      {
+        "name": "4 star",
+        "count": 7800
+      },
+      {
+        "name": "3 star",
+        "count": 3400
+      },
+      {
+        "name": "2 star",
+        "count": 1100
+      },
+      {
+        "name": "1 star",
+        "count": 900
+      }
     ]
   },
   {
@@ -130,17 +235,32 @@
     "title": "TaskHero:Smart Task Manager",
     "companyName": "NextWave Apps",
     "id": 8,
-    "description": "TaskHero is a smart to-do and productivity app built to streamline your workflow. Easily create recurring tasks, set smart reminders, and track progress across projects. With calendar sync, team collaboration, and goal tracking, TaskHero is perfect for professionals, students, and productivity nerds alike.",
+    "description": "TaskHero is the ultimate gamified productivity powerhouse, blending effective task management with the motivational mechanics of an RPG. It allows you to transform your daily chores, goals, and habits into a personal quest within the immersive world of 'Tasklandia'. You can organize daily objectives into a focused 'Today List', set priority levels, and utilize a wide variety of Calendar Scheduling options for recurring tasks. Key features include Intensive Focus Timers (like Pomodoro) to defeat distractions, and personalized Overdue Tracking with customizable consequences to fit your motivational style. For collaboration, TaskHero supports team quests, allowing users to share projects, track progress, and provide accountability. As you complete real-world tasks and habits, you earn XP, gold, and RPG Loot to upgrade your character, turning task completion into a rewarding and engaging experience. This innovative approach makes habit building effortless and turns goal-setting into a legendary adventure.",
     "size": 27,
     "reviews": 11023,
     "ratingAvg": 4.1,
     "downloads": 870000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2000 },
-      { "name": "4 star", "count": 3100 },
-      { "name": "5 star", "count": 4523 }
+      {
+        "name": "5 star",
+        "count": 4523
+      },
+      {
+        "name": "4 star",
+        "count": 3100
+      },
+      {
+        "name": "3 star",
+        "count": 2000
+      },
+      {
+        "name": "2 star",
+        "count": 900
+      },
+      {
+        "name": "1 star",
+        "count": 500
+      }
     ]
   },
   {
@@ -148,17 +268,32 @@
     "title": "TripNinja:Smart Travel Planner",
     "companyName": "Wanderlust Tech",
     "id": 9,
-    "description": "TripNinja helps you plan, book, and manage your trips with ease. Build detailed itineraries, discover attractions, get travel tips, and receive flight and weather alerts. Whether you're on a road trip or international adventure, TripNinja keeps your travel plans organized and stress-free.",
+    "description": "TripNinja is your all-in-one travel command center, eliminating the stress of itinerary planning. It allows users to build comprehensive, custom itineraries with intuitive drag-and-drop functionality, consolidating flights, accommodations, sightseeing, and meetings into one centralized location. The app is a document vault, securely storing tickets, passports, insurance, and booking confirmations. Core features include Real-Time Travel Alerts for flight changes, weather, and local advisories, ensuring you're always prepared. The integrated Expense Tracker helps you allocate your travel budget wisely and monitor spending on the go. TripNinja’s smart suggestions offer recommendations based on your destination and interests. Crucially, the app includes Offline Support, making your entire itinerary, maps, and essential information accessible even without an internet connection, ensuring a seamless and worry-free travel experience.",
     "size": 66,
     "reviews": 19870,
     "ratingAvg": 4.6,
     "downloads": 2300000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1800 },
-      { "name": "4 star", "count": 5400 },
-      { "name": "5 star", "count": 11570 }
+      {
+        "name": "5 star",
+        "count": 11570
+      },
+      {
+        "name": "4 star",
+        "count": 5400
+      },
+      {
+        "name": "3 star",
+        "count": 1800
+      },
+      {
+        "name": "2 star",
+        "count": 700
+      },
+      {
+        "name": "1 star",
+        "count": 400
+      }
     ]
   },
   {
@@ -166,17 +301,32 @@
     "title": "CryptoScan:Track Crypto in Real Time",
     "companyName": "BlockWave Inc.",
     "id": 10,
-    "description": "CryptoScan is the ultimate crypto portfolio and market tracker. Get live updates, real-time price alerts, coin analytics, and news from trusted sources. Monitor your investments, view historical data, and manage your digital assets in one secure, intuitive platform.",
+    "description": "CryptoScan is the essential, professional-grade platform for cryptocurrency enthusiasts and investors, offering real-time market data for Bitcoin, Ethereum, and over 10,000 other digital assets. The app provides a powerful Portfolio Tracker that allows you to monitor your profits, losses, and overall valuation in a single, customizable dashboard. Users benefit from Real-Time Price Data updated 24/7 from the world's largest exchanges, and can set personalized Crypto Price Alerts to react instantly to market movements. The platform includes detailed Technical Analysis Charts with multiple time frames and indicators. Furthermore, the built-in News Aggregator curates breaking industry news and tailored updates based on your holdings. With advanced security protocols and seamless wallet integrations, CryptoScan keeps your digital investments organized, secure, and accessible, catering to both seasoned traders and those just starting their crypto journey.",
     "size": 58,
     "reviews": 7345,
     "ratingAvg": 4.0,
     "downloads": 650000,
     "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 2000 },
-      { "name": "5 star", "count": 2245 }
+      {
+        "name": "5 star",
+        "count": 2245
+      },
+      {
+        "name": "4 star",
+        "count": 2000
+      },
+      {
+        "name": "3 star",
+        "count": 1600
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "1 star",
+        "count": 700
+      }
     ]
   },
   {
@@ -184,17 +334,32 @@
     "title": "SmPlan:ToDo List with Reminder",
     "companyName": "ZenTech Ltd.",
     "id": 11,
-    "description": "SmPlan is your smart planning assistant, designed to help you manage tasks, reminders, and daily goals seamlessly. Whether you're organizing personal errands or coordinating team projects, SmPlan offers intuitive scheduling, color-coded labels, and flexible notifications so you never miss a deadline. With cloud sync and offline support, your productivity stays on track no matter where you are.",
+    "description": "SmPlan is your simple, intuitive, and powerfully effective productivity companion, designed for minimalist daily planning without clutter or distraction. This To-Do List app features a clean, ad-free interface where you can quickly create and manage tasks. Organization is streamlined with the ability to categorize tasks with colors, assign due dates, and use the Calendar View to see all deadlines at a glance. Smart features include highly customizable Recurring Reminders, progress indicators, and easy drag-and-drop functionality for reordering tasks by priority. The app ensures maximum reliability with iCloud/Cloud Sync (Premium) to secure your data across all devices and provides full Offline Support so your productivity never pauses, regardless of internet connectivity. SmPlan is the ideal tool for managing everything from complex project deadlines to simple shopping lists, designed to help you focus on what matters most.",
     "size": 32,
     "reviews": 15423,
     "ratingAvg": 4.5,
     "downloads": 1200000,
     "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 4200 },
-      { "name": "5 star", "count": 9300 }
+      {
+        "name": "5 star",
+        "count": 9300
+      },
+      {
+        "name": "4 star",
+        "count": 4200
+      },
+      {
+        "name": "3 star",
+        "count": 2100
+      },
+      {
+        "name": "2 star",
+        "count": 1000
+      },
+      {
+        "name": "1 star",
+        "count": 800
+      }
     ]
   },
   {
@@ -202,17 +367,32 @@
     "title": "DailyRead:Trending News Digest",
     "companyName": "InfoSage Media",
     "id": 12,
-    "description": "DailyRead curates the most important headlines, breaking news, and trending stories from top sources across the globe. With categories like tech, politics, science, and entertainment, stay informed without the clutter. Customize your feed and enjoy a clean, distraction-free reading experience.",
+    "description": "DailyRead is the ultimate AI-powered news aggregator, providing a curated, high-quality, and distraction-free reading experience. The app leverages machine learning to create a highly Personalized News Feed tailored to your interests across global categories: politics, tech, finance, health, and more. Critical to its efficiency is the use of AI-Driven Clustering to group similar articles, eliminating repetition, and the AI Summaries feature which distills lengthy reports into concise, easy-to-digest key points. Users can select specific sources and topics to follow via Customizable Channels and receive real-time Topic Alerts for breaking stories. DailyRead's interface is clean and elegant, prioritizing readability. It also fosters community engagement through comment sections and polls, allowing readers to discuss and shape the narrative around the most talked-about topics.",
     "size": 33,
     "reviews": 15455,
     "ratingAvg": 4.2,
     "downloads": 1800000,
     "ratings": [
-      { "name": "1 star", "count": 1000 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 3000 },
-      { "name": "4 star", "count": 4600 },
-      { "name": "5 star", "count": 7055 }
+      {
+        "name": "5 star",
+        "count": 7055
+      },
+      {
+        "name": "4 star",
+        "count": 4600
+      },
+      {
+        "name": "3 star",
+        "count": 3000
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "1 star",
+        "count": 1000
+      }
     ]
   },
   {
@@ -220,17 +400,32 @@
     "title": "GameMaster:Your Game Hub",
     "companyName": "PlayLab Studios",
     "id": 13,
-    "description": "GameMaster is your personalized gaming assistant that tracks achievements, game time, updates, and more. Explore trending titles, manage your library, and connect with friends across platforms. For casual players and hardcore gamers alike, GameMaster brings your virtual world together.",
+    "description": "GameMaster is the definitive, all-encompassing hub for serious gamers, centralizing your entire gaming life across PC, console, and mobile platforms. The app automatically organizes all your downloaded games, provides Game Booster performance enhancements for mobile play, and tracks your global Achievements, Time Played, and In-Game Stats with rich visualizations. It serves as a discovery engine, providing curated, personalized Game Recommendations based on your playstyle and genre preferences. The Community Integration features allow you to easily connect with friends, compare stats on leaderboards, and join guilds or clans. Stay informed with real-time updates on game patches, new releases, and exclusive loot/discount opportunities. GameMaster transforms a scattered gaming library into an organized, immersive, and social ecosystem.",
     "size": 120,
     "reviews": 60200,
     "ratingAvg": 4.8,
     "downloads": 7000000,
     "ratings": [
-      { "name": "1 star", "count": 1000 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 3200 },
-      { "name": "4 star", "count": 8700 },
-      { "name": "5 star", "count": 46300 }
+      {
+        "name": "5 star",
+        "count": 46300
+      },
+      {
+        "name": "4 star",
+        "count": 8700
+      },
+      {
+        "name": "3 star",
+        "count": 3200
+      },
+      {
+        "name": "2 star",
+        "count": 1000
+      },
+      {
+        "name": "1 star",
+        "count": 1000
+      }
     ]
   },
   {
@@ -238,17 +433,32 @@
     "title": "EduSpark:Interactive Learning Hub",
     "companyName": "BrightFuture EdTech",
     "id": 14,
-    "description": "EduSpark offers video lessons, interactive quizzes, and real-time feedback for learners of all ages. Covering subjects from math to coding, it’s perfect for students, teachers, and lifelong learners. With gamified rewards and progress tracking, education has never been this engaging.",
+    "description": "EduSpark is a cutting-edge, interactive learning platform that transforms education for students and educators alike. Leveraging neuroscience-backed methodologies, it delivers engaging content across core subjects including math, science, history, and coding through videos, memory games, matching games, and formative assessments. The platform incorporates powerful Gamified Learning elements—students earn XP, unlock badges, and track their mastery through Competency-Based Learning features to maintain high motivation. For educators, EduSpark provides advanced tools like customized content creation, differentiated learning paths, and robust analytics and reporting to monitor class performance and identify areas needing intervention. It supports various instructional modes (self-paced, blended, instructor-led) and integrates seamlessly with external learning management systems (LMS) to offer a truly modern and effective educational experience.",
     "size": 105,
     "reviews": 25678,
     "ratingAvg": 4.5,
     "downloads": 3300000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 5600 },
-      { "name": "5 star", "count": 16778 }
+      {
+        "name": "5 star",
+        "count": 16778
+      },
+      {
+        "name": "4 star",
+        "count": 5600
+      },
+      {
+        "name": "3 star",
+        "count": 2100
+      },
+      {
+        "name": "2 star",
+        "count": 700
+      },
+      {
+        "name": "1 star",
+        "count": 500
+      }
     ]
   },
   {
@@ -256,17 +466,32 @@
     "title": "WeatherWise:Forecast & Alerts",
     "companyName": "SkyLogic",
     "id": 15,
-    "description": "WeatherWise delivers accurate forecasts, radar maps, and severe weather alerts in real-time. With hourly breakdowns, air quality tracking, and sunrise/sunset insights, it’s the ultimate weather app for daily planning. Custom widgets and minimalist design make it easy to use anywhere.",
+    "description": "WeatherWise delivers hyper-local, high-resolution weather intelligence designed to keep you safe and prepared. The app features Realtime Super Resolution Weather Radar that renders the highest quality, original data directly from weather services, giving you unparalleled detail on precipitation, storms, and lightning. Users receive timely National Weather Service and NOAA Severe Weather Alerts to ensure they are never caught off guard. The sleek, minimalist interface provides comprehensive hourly and 7-day breakdowns, crucial insights like air quality, wind speed, and sunrise/sunset times. With a commitment to safety and clarity, WeatherWise is 100% free and ad-free, allowing you to focus completely on the most current and critical weather information for your location, complete with customizable widgets and an intuitive global navigation system.",
     "size": 39,
     "reviews": 19340,
     "ratingAvg": 4.1,
     "downloads": 2700000,
     "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2900 },
-      { "name": "4 star", "count": 5300 },
-      { "name": "5 star", "count": 11040 }
+      {
+        "name": "5 star",
+        "count": 11040
+      },
+      {
+        "name": "4 star",
+        "count": 5300
+      },
+      {
+        "name": "3 star",
+        "count": 2900
+      },
+      {
+        "name": "2 star",
+        "count": 900
+      },
+      {
+        "name": "1 star",
+        "count": 1200
+      }
     ]
   },
   {
@@ -274,17 +499,32 @@
     "title": "VoiceGo:Smart Voice Assistant",
     "companyName": "SpeakEasy AI",
     "id": 16,
-    "description": "VoiceGo is a voice-powered assistant for transcription, translation, and productivity on the go. Convert speech to text instantly, translate across 60+ languages, and control your device hands-free. Ideal for busy professionals, students, and multilingual users who want speed and accuracy.",
+    "description": "VoiceGo is a next-generation, voice-powered assistant engineered for seamless, hands-free productivity across all your daily tasks. Utilizing advanced AI, it can instantly convert speech to text (transcription) with high accuracy, making it ideal for note-taking, dictating emails, and documenting meetings on the go. The app boasts a powerful, real-time Translation Engine supporting over 60 global languages. Designed for maximum convenience, VoiceGo allows for comprehensive hands-free device control, including voice-activated navigation, managing connectivity (Wi-Fi, Bluetooth), initiating calls, and sending texts. Whether you are driving, studying, or multitasking, VoiceGo ensures you can stay connected and productive with simple, intuitive voice commands, significantly enhancing the efficiency of multilingual users and busy professionals.",
     "size": 77,
     "reviews": 14330,
     "ratingAvg": 4.4,
     "downloads": 2100000,
     "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1800 },
-      { "name": "4 star", "count": 3900 },
-      { "name": "5 star", "count": 9230 }
+      {
+        "name": "5 star",
+        "count": 9230
+      },
+      {
+        "name": "4 star",
+        "count": 3900
+      },
+      {
+        "name": "3 star",
+        "count": 1800
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "1 star",
+        "count": 600
+      }
     ]
   }
 ]

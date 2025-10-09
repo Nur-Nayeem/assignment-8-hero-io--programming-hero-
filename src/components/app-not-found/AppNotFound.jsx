@@ -15,7 +15,7 @@ const AppNotFound = () => {
         The App you are requesting is not found on our system. please try
         another apps
       </p>
-      <Link to={-1} className="w-max mx-auto ">
+      <Link to="/apps" className="w-max mx-auto ">
         <button className="cursor-pointer font-semibold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-3.5 px-10 text-white rounded-md">
           Go Back!
         </button>
